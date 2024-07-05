@@ -1,0 +1,15 @@
+<div class="container">
+    @for (product of products; track product) {
+        <div>
+            <mat-card class="card">
+                <mat-card-content>
+                    <h3 class="title">{{product.item}}</h3>
+                    <div>
+                        <span>{{product.description}}</span>
+                    </div>
+                </mat-card-content>
+              </mat-card>
+        </div>
+       
+      }
+</div>

@@ -1,0 +1,16 @@
+.title{
+    font-weight: 800;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 80%;
+}
+
+::ng-deep .mat-mdc-card{
+    background-color: #b0b0b066 !important;
+}
